@@ -26,19 +26,44 @@ delays: []
 #
 match_periods:
   league:
-    - start_time: 2018-04-22 10:45:00 +1
-      end_time: 2018-04-22 12:15:00 +1
-      max_end_time: 2018-04-22 12:30:00 +1
-      description: League
+    - start_time: 2018-04-21 13:30:00 +1
+      end_time: 2018-04-21 14:55:00 +1
+      max_end_time: 2018-04-21 14:55:00 +1
+      description: Saturday league, early afternoon
+
+#
+    - start_time: 2018-04-21 16:15:00 +1
+      end_time: 2018-04-21 16:55:00 +1
+      max_end_time: 2018-04-21 16:55:00 +1
+      description: Saturday league, late afternoon
+
+#
+    - start_time: 2018-04-22 11:00:00 +1
+      end_time: 2018-04-22 11:40:00 +1
+      max_end_time: 2018-04-22 11:40:00 +1
+      description: Sunday league, morning
+
+#
+    - start_time: 2018-04-22 12:00:00 +1
+      end_time: 2018-04-22 12:40:00 +1
+      max_end_time: 2018-04-22 12:40:00 +1
+      description: Sunday league, before lunch
+
+#
+    - start_time: 2018-04-22 13:45:00 +1
+      end_time: 2018-04-22 14:25:00 +1
+      max_end_time: 2018-04-22 14:25:00 +1
+      description: Sunday league, afternoon
+
 #
   knockout:
-    - start_time: 2018-04-22 13:00:00 +1
-      end_time: 2018-04-22 14:15:00 +1
+    - start_time: 2018-04-22 15:40:00 +1
+      end_time: 2018-04-22 16:10:00 +1
       description: Knockout
 #
 # Five minutes after the final, allows for rotating and possible delays
 # (this value ignores all delays)
-tiebreaker: 2017-04-02 17:05:00+01:00
+tiebreaker: 2017-04-02 16:20:00+01:00
 #
 league:
   extra_spacing: null
