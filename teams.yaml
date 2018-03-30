@@ -1,0 +1,31 @@
+teams:
+  T01:
+    name: Team 1
+    rookie: true
+  T02:
+    name: Team 2
+    rookie: true
+  T03:
+    name: Team 3
+    rookie: true
+  T04:
+    name: Team 4
+    rookie: true
+  T05:
+    name: Team 5
+    rookie: true
+  T06:
+    name: Team 6
+    rookie: true
+  T07:
+    name: Team 7
+    rookie: true
+  T08:
+    name: Team 8
+    rookie: true
+  T09:
+    name: Team 9
+    rookie: true
+  T10:
+    name: Team 10
+    rookie: true

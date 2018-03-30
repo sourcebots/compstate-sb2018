@@ -1,0 +1,82 @@
+match_slot_lengths:
+  pre: 90
+  match: 180
+  post: 30
+  total: 300
+#
+# Various staging related times, in seconds before the actual match start
+staging:
+  # The earliest teams can present themselves for a match
+  opens: 300
+  # The time by which teams _must_ be in staging
+  closes: 120
+  # How long staging is open for; equal to `opens - closes`
+  duration: 180
+  # How long before the start of the match to signal to shepherds they
+  # should start looking for teams
+  signal_shepherds:
+    Shepherd: 180
+  # How long before the start of the match to signal to teams they should
+  # go to staging
+  signal_teams: 180
+#
+timezone: Europe/London
+#
+delays: []
+#
+match_periods:
+  league:
+    - start_time: 2018-04-22 10:45:00 +1
+      end_time: 2018-04-22 12:15:00 +1
+      max_end_time: 2018-04-22 12:30:00 +1
+      description: League
+#
+  knockout:
+    - start_time: 2018-04-22 13:00:00 +1
+      end_time: 2018-04-22 14:15:00 +1
+      description: Knockout
+#
+# Five minutes after the final, allows for rotating and possible delays
+# (this value ignores all delays)
+tiebreaker: 2017-04-02 17:05:00+01:00
+#
+league:
+  extra_spacing: null
+#
+knockout:
+  static: true
+#
+static_knockout:
+  teams_per_arena: 2
+  matches:
+    0:
+      0:
+        arena: main
+        start_time: 2018-04-22 15:30:00 +1
+        teams: [S1, S5]
+      1:
+        arena: main
+        start_time: 2018-04-22 15:45:00 +1
+        teams: [S3, S7]
+      2:
+        arena: main
+        start_time: 2018-04-22 16:00:00 +1
+        teams: [S4, S8]
+      3:
+        arena: main
+        start_time: 2018-04-22 16:15:00 +1
+        teams: [S2, S6]
+    2:
+      0:
+        arena: main
+        start_time: 2018-04-22 16:30:00 +1
+        teams: ['000', '010']
+      1:
+        arena: main
+        start_time: 2018-04-22 16:45:00 +1
+        teams: ['020', '030']
+    3:
+      0:
+        arena: main
+        start_time: 2018-04-22 17:00:00 +1
+        teams: ['100', '110']
