@@ -15,15 +15,19 @@ teams:
     zone: 0
     disqualified: false
     present: true
+    moved: false
   TLA2:
     zone: 1
     disqualified: false
     present: true
+    moved: false
   TLA3:
     zone: 2
     disqualified: false
     present: true
+    moved: false
   TLA4:
     zone: 3
     disqualified: false
     present: true
+    moved: false
