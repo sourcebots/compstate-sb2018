@@ -72,36 +72,29 @@ knockout:
   static: true
 #
 static_knockout:
-  teams_per_arena: 2
   matches:
     0:
       0:
         arena: main
-        start_time: 2018-04-22 15:30:00 +1
-        teams: [S1, S5]
+        start_time: 2018-04-22 15:40:00 +1
+        # S<num> means seed number
+        teams: [S3, S5, S8, S10]
       1:
         arena: main
         start_time: 2018-04-22 15:45:00 +1
-        teams: [S3, S7]
-      2:
+        teams: [S4, S6, S7, S9]
+    1:
+      0:
+        arena: main
+        start_time: 2018-04-22 15:55:00 +1
+        # 012 means the 3rd place in match 1 in round 0 of the knockouts
+        teams: [S2, '000', '002', '011']
+      1:
         arena: main
         start_time: 2018-04-22 16:00:00 +1
-        teams: [S4, S8]
-      3:
-        arena: main
-        start_time: 2018-04-22 16:15:00 +1
-        teams: [S2, S6]
+        teams: [S1, '001', '010', '012']
     2:
       0:
         arena: main
-        start_time: 2018-04-22 16:30:00 +1
-        teams: ['000', '010']
-      1:
-        arena: main
-        start_time: 2018-04-22 16:45:00 +1
-        teams: ['020', '030']
-    3:
-      0:
-        arena: main
-        start_time: 2018-04-22 17:00:00 +1
-        teams: ['100', '110']
+        start_time: 2018-04-22 16:10:00 +1
+        teams: ['100', '101', '110', '111']
