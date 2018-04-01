@@ -300,7 +300,7 @@
              id="tspan3084"
              style="font-size:22.05871391px"><tspan
    id="tspan3952"
-   style="font-size:29.77926254px">Zone 0 </tspan>(green)</tspan></text>
+   style="font-size:29.77926254px">Zone 0 </tspan>(purple)</tspan></text>
         <text
            sodipodi:linespacing="125%"
            id="text11443"
@@ -314,7 +314,7 @@
              id="tspan3086"
              style="font-size:22.05871391px"><tspan
    id="tspan3954"
-   style="font-size:29.77926254px">Zone 1 </tspan>(orange)</tspan></text>
+   style="font-size:29.77926254px">Zone 1 </tspan>(green)</tspan></text>
         <text
            sodipodi:linespacing="125%"
            id="text11431"
@@ -328,7 +328,7 @@
              id="tspan3088"
              style="font-size:22.05871391px"><tspan
    id="tspan3958"
-   style="font-size:29.77926254px">Zone 2 </tspan>(purple)</tspan></text>
+   style="font-size:29.77926254px">Zone 2 </tspan>(yellow)</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:29.73354912px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none"
@@ -342,7 +342,7 @@
              id="tspan3090"
              style="font-size:22.05871391px;text-align:center;text-anchor:middle"><tspan
    id="tspan3956"
-   style="font-size:29.77926254px">Zone 3 </tspan>(yellow)</tspan></text>
+   style="font-size:29.77926254px">Zone 3 </tspan>(orange)</tspan></text>
       </g>
       <path
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.37401485;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
@@ -420,12 +420,12 @@
          x="372.60388"
          y="984.29962"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';text-align:center;text-anchor:middle"
-         id="tspan3092">Write a block-capital letter for the type of each token: G, O, P, Y.</tspan><tspan
+         id="tspan3092">Write a block-capital letter for the type of each token: P, G, O, Y.</tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';text-align:center;text-anchor:middle"
          y="1009.2996"
          x="372.60388"
          sodipodi:role="line"
-         id="tspan4257">G = Green, O = Orange, P = Purple, Y = Yellow</tspan></text>
+         id="tspan4257">P = Purple, G = Green, O = Orange, Y = Yellow</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4373"
