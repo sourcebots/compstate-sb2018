@@ -193,6 +193,22 @@ class TestScorer(unittest.TestCase):
 
         self.assertScores(expected, teams_data, arena_data)
 
+    def test_validate_error_non_present_team_moved(self):
+        teams_data = {
+            'ABC': {'zone': 0, 'present': False, 'moved': True},
+            'DEF': {'zone': 1, 'present': False, 'moved': False},
+            'GHI': {'zone': 2, 'present': False},
+        }
+        arena_data = {
+            0: {'tokens': ''},
+            1: {'tokens': ''},
+            2: {'tokens': ''},
+            3: {'tokens': ''},
+            'other': {'tokens': 'PGOY PGOY PGOY PGOY PGOY'},
+        }
+
+        self.assertValidationError(teams_data, arena_data)
+
     def test_validate_error_invalid_notation(self):
         teams_data = {
             'ABC': {'zone': 0},

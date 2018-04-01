@@ -39,6 +39,14 @@ class Scorer(object):
         }
 
     def validate(self, extra_data):
+        for team_id, team_info in self._teams_data.items():
+            if team_info.get('moved', False) and not team_info['present']:
+                raise InvalidScoresheetException(
+                    "Team {!r} cannot have moved as it was not present".format(
+                        team_id,
+                    ),
+                )
+
         all_tokens = ''.join(
             self._arena_data[zone_id]['tokens']
             for zone_id in ZONES
