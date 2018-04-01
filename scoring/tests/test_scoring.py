@@ -32,11 +32,11 @@ class TestScorer(unittest.TestCase):
             'GHI': {'zone': 2},
         }
         arena_data = {
-            0: { 'tokens': 'YYYYY' },
-            1: { 'tokens': 'OOOOO' },
-            2: { 'tokens': 'PPPPP' },
-            3: { 'tokens': 'GGGGG' },
-            'other': { 'tokens': '' },
+            0: {'tokens': 'YYYYY'},
+            1: {'tokens': 'OOOOO'},
+            2: {'tokens': 'PPPPP'},
+            3: {'tokens': 'GGGGG'},
+            'other': {'tokens': ''},
         }
         expected = {
             'ABC': -5,
@@ -53,11 +53,11 @@ class TestScorer(unittest.TestCase):
             'GHI': {'zone': 2},
         }
         arena_data = {
-            0: { 'tokens': '' },
-            1: { 'tokens': '' },
-            2: { 'tokens': '' },
-            3: { 'tokens': '' },
-            'other': { 'tokens': 'PGOY PGOY PGOY PGOY PGOY' },
+            0: {'tokens': ''},
+            1: {'tokens': ''},
+            2: {'tokens': ''},
+            3: {'tokens': ''},
+            'other': {'tokens': 'PGOY PGOY PGOY PGOY PGOY'},
         }
         expected = {
             'ABC': 0,
@@ -74,11 +74,11 @@ class TestScorer(unittest.TestCase):
             'GHI': {'zone': 2},
         }
         arena_data = {
-            0: { 'tokens': 'GOY GOY' },
-            1: { 'tokens': '' },
-            2: { 'tokens': '' },
-            3: { 'tokens': '' },
-            'other': { 'tokens': 'P P PGOY PGOY PGOY' },
+            0: {'tokens': 'GOY GOY'},
+            1: {'tokens': ''},
+            2: {'tokens': ''},
+            3: {'tokens': ''},
+            'other': {'tokens': 'P P PGOY PGOY PGOY'},
         }
         expected = {
             'ABC': -6,
@@ -95,11 +95,11 @@ class TestScorer(unittest.TestCase):
             'GHI': {'zone': 2},
         }
         arena_data = {
-            0: { 'tokens': 'PPP' },
-            1: { 'tokens': '' },
-            2: { 'tokens': '' },
-            3: { 'tokens': '' },
-            'other': { 'tokens': 'GOY GOY GOY PGOY PGOY' },
+            0: {'tokens': 'PPP'},
+            1: {'tokens': ''},
+            2: {'tokens': ''},
+            3: {'tokens': ''},
+            'other': {'tokens': 'GOY GOY GOY PGOY PGOY'},
         }
         expected = {
             'ABC': 6,
@@ -116,11 +116,11 @@ class TestScorer(unittest.TestCase):
             'GHI': {'zone': 2},
         }
         arena_data = {
-            0: { 'tokens': 'PPP GG OO' },
-            1: { 'tokens': '' },
-            2: { 'tokens': '' },
-            3: { 'tokens': '' },
-            'other': { 'tokens': 'Y Y GOY PGOY PGOY' },
+            0: {'tokens': 'PPP GG OO'},
+            1: {'tokens': ''},
+            2: {'tokens': ''},
+            3: {'tokens': ''},
+            'other': {'tokens': 'Y Y GOY PGOY PGOY'},
         }
         expected = {
             'ABC': 2,
@@ -137,11 +137,11 @@ class TestScorer(unittest.TestCase):
             'GHI': {'zone': 2},
         }
         arena_data = {
-            0: { 'tokens': 'PGOY PP' },
-            1: { 'tokens': 'GPO G' },
-            2: { 'tokens': 'YYY' },
-            3: { 'tokens': 'OY' },
-            'other': { 'tokens': 'P OO GG' },
+            0: {'tokens': 'PGOY PP'},
+            1: {'tokens': 'GPO G'},
+            2: {'tokens': 'YYY'},
+            3: {'tokens': 'OY'},
+            'other': {'tokens': 'P OO GG'},
         }
         expected = {
             'ABC': 3,
@@ -158,11 +158,11 @@ class TestScorer(unittest.TestCase):
             'GHI': {'zone': 2, 'moved': False},
         }
         arena_data = {
-            0: { 'tokens': '' },
-            1: { 'tokens': '' },
-            2: { 'tokens': '' },
-            3: { 'tokens': '' },
-            'other': { 'tokens': 'PGOY PGOY PGOY PGOY PGOY' },
+            0: {'tokens': ''},
+            1: {'tokens': ''},
+            2: {'tokens': ''},
+            3: {'tokens': ''},
+            'other': {'tokens': 'PGOY PGOY PGOY PGOY PGOY'},
         }
         expected = {
             'ABC': 1,
@@ -179,11 +179,11 @@ class TestScorer(unittest.TestCase):
             'GHI': {'zone': 2, 'moved': False},
         }
         arena_data = {
-            0: { 'tokens': 'PGOY PP' },
-            1: { 'tokens': 'GPO G' },
-            2: { 'tokens': 'YYY' },
-            3: { 'tokens': 'OY' },
-            'other': { 'tokens': 'P OO GG' },
+            0: {'tokens': 'PGOY PP'},
+            1: {'tokens': 'GPO G'},
+            2: {'tokens': 'YYY'},
+            3: {'tokens': 'OY'},
+            'other': {'tokens': 'P OO GG'},
         }
         expected = {
             'ABC': 4,
@@ -200,11 +200,11 @@ class TestScorer(unittest.TestCase):
             'GHI': {'zone': 2},
         }
         arena_data = {
-            0: { 'tokens': '' },
-            1: { 'tokens': 'Q' },
-            2: { 'tokens': '' },
-            3: { 'tokens': '' },
-            'other': { 'tokens': 'PGOY PGOY PGOY PGOY PGOY' },
+            0: {'tokens': ''},
+            1: {'tokens': 'Q'},
+            2: {'tokens': ''},
+            3: {'tokens': ''},
+            'other': {'tokens': 'PGOY PGOY PGOY PGOY PGOY'},
         }
 
         self.assertValidationError(teams_data, arena_data)
@@ -216,11 +216,11 @@ class TestScorer(unittest.TestCase):
             'GHI': {'zone': 2},
         }
         arena_data = {
-            0: { 'tokens': '' },
-            1: { 'tokens': '' },
-            2: { 'tokens': '' },
-            3: { 'tokens': '' },
-            'other': { 'tokens': 'PGOY PGOY PGOY PGOY' },
+            0: {'tokens': ''},
+            1: {'tokens': ''},
+            2: {'tokens': ''},
+            3: {'tokens': ''},
+            'other': {'tokens': 'PGOY PGOY PGOY PGOY'},
         }
 
         self.assertValidationError(teams_data, arena_data)
@@ -232,11 +232,11 @@ class TestScorer(unittest.TestCase):
             'GHI': {'zone': 2},
         }
         arena_data = {
-            0: { 'tokens': 'YYY YYY' },
-            1: { 'tokens': 'GGG GGG' },
-            2: { 'tokens': 'PPP PPP' },
-            3: { 'tokens': 'OOO OOO' },
-            'other': { 'tokens': '' },
+            0: {'tokens': 'YYY YYY'},
+            1: {'tokens': 'GGG GGG'},
+            2: {'tokens': 'PPP PPP'},
+            3: {'tokens': 'OOO OOO'},
+            'other': {'tokens': ''},
         }
 
         self.assertValidationError(teams_data, arena_data)
@@ -248,11 +248,11 @@ class TestScorer(unittest.TestCase):
             'GHI': {'zone': 2},
         }
         arena_data = {
-            0: { 'tokens': 'YYYYY' },
-            1: { 'tokens': 'YYYYY' },
-            2: { 'tokens': 'PPPPP' },
-            3: { 'tokens': 'OOOOO' },
-            'other': { 'tokens': '' },
+            0: {'tokens': 'YYYYY'},
+            1: {'tokens': 'YYYYY'},
+            2: {'tokens': 'PPPPP'},
+            3: {'tokens': 'OOOOO'},
+            'other': {'tokens': ''},
         }
 
         self.assertValidationError(teams_data, arena_data)
