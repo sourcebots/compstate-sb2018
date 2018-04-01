@@ -4,10 +4,10 @@ arenas:
 
 corners:
   0:
-    colour: '#00ff00'
+    colour: '#00ff00' # green
   1:
-    colour: '#ff6600'
+    colour: '#ff6600' # orange
   2:
-    colour: '#ff00ff'
+    colour: '#ff00ff' # purple
   3:
-    colour: '#ffff00'
+    colour: '#ffff00' # yellow
