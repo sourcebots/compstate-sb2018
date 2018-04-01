@@ -23,7 +23,7 @@ class TestScorer(unittest.TestCase):
     def assertValidationError(self, teams_data, arena_data):
         with self.assertRaises(InvalidScoresheetException):
             scorer = Scorer(teams_data, arena_data)
-            scores = scorer.validate(None)
+            scorer.validate(None)
 
     def test_scores_match_start(self):
         teams_data = {
