@@ -9,7 +9,9 @@ arena_zones:
     tokens: ''
   3:
     tokens: ''
-  other: {}
+  other:
+    # 20 tokens, 5 of each colour
+    tokens: 'PGOY PGOY PGOY PGOY PGOY'
 teams:
   TLA1:
     zone: 0
