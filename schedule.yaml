@@ -78,21 +78,17 @@ static_knockout:
         arena: main
         start_time: 2018-04-22 15:40:00 +1
         # S<num> means seed number
-        teams: [S3, S5, S8, S10]
-      1:
-        arena: main
-        start_time: 2018-04-22 15:45:00 +1
-        teams: [S4, S6, S7, S9]
+        teams: [S6, S7, S8, S9]
     1:
       0:
         arena: main
-        start_time: 2018-04-22 15:55:00 +1
+        start_time: 2018-04-22 15:50:00 +1
         # 012 means the 3rd place in match 1 in round 0 of the knockouts
-        teams: [S2, '000', '002', '011']
+        teams: [S2, S4, S5, '001']
       1:
         arena: main
         start_time: 2018-04-22 16:00:00 +1
-        teams: [S1, '001', '010', '012']
+        teams: [S1, S3, '000', '002']
     2:
       0:
         arena: main
