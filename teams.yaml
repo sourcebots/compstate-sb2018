@@ -1,31 +1,28 @@
 teams:
-  T01:
-    name: Team 1
+  SEN:
+    name: Southend High School for Boys
     rookie: true
-  T02:
-    name: Team 2
+  SWI:
+    name: South Wilts Grammar School for Girls
     rookie: true
-  T03:
-    name: Team 3
+  RGS:
+    name: Royal Grammar School Guildford
     rookie: true
-  T04:
-    name: Team 4
+  CLY:
+    name: Collyer's
     rookie: true
-  T05:
-    name: Team 5
+  BPV:
+    name: Barton Peveril College I
     rookie: true
-  T06:
-    name: Team 6
+  BPV2:
+    name: Barton Peveril College II
     rookie: true
-  T07:
-    name: Team 7
+  BRK:
+    name: Brockenhurst College
     rookie: true
-  T08:
-    name: Team 8
+  TTN:
+    name: Richard Taunton Sixth Form College
     rookie: true
-  T09:
-    name: Team 9
-    rookie: true
-  T10:
-    name: Team 10
+  KEV:
+    name: King Edward VI School
     rookie: true
