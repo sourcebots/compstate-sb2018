@@ -1,0 +1,34 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: YYYYOO
+  1:
+    tokens: GOOG
+  2:
+    tokens: PPPP
+  3:
+    tokens: ''
+  other:
+    tokens: PGGGYO
+match_number: 6
+teams:
+  BPV:
+    disqualified: false
+    moved: true
+    present: true
+    zone: 1
+  CLY:
+    disqualified: false
+    moved: true
+    present: true
+    zone: 3
+  SWI:
+    disqualified: false
+    moved: true
+    present: true
+    zone: 2
+  TTN:
+    disqualified: false
+    moved: true
+    present: true
+    zone: 0
