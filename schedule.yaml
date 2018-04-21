@@ -121,7 +121,7 @@ match_periods:
 #
 # Five minutes after the final, allows for rotating and possible delays
 # (this value ignores all delays)
-tiebreaker: 2017-04-02 16:20:00+01:00
+tiebreaker: 2018-04-22 16:20:00 +1
 #
 league:
   extra_spacing: null
