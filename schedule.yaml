@@ -133,7 +133,7 @@ static_knockout:
         display_name: "Qualifier"
         start_time: 2018-04-22 15:40:00 +1
         # S<num> means seed number
-        teams: [S5, S6, S7, S8]
+        teams: [S5, S6, S7, null]
     1:
       0:
         arena: main
