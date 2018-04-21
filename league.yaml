@@ -1,109 +1,73 @@
 matches:
   0:
-    main: [BPV2, SEN, SWI, BRK]
+    main: [SWI, BRK, TTN, CLY]
   1:
-    main: [RGS, SEN, TTN, BPV]
+    main: [SEN, RGS, BPV, BPV2]
   2:
-    main: [BPV2, CLY, KEV, BPV]
+    main: [CLY, BPV2, TTN, SWI]
   3:
-    main: [RGS, TTN, BRK, BPV2]
+    main: [SEN, BPV, RGS, BRK]
   4:
-    main: [KEV, SWI, RGS, BPV]
+    main: [SWI, BPV, TTN, SEN]
   5:
-    main: [CLY, SWI, TTN, BPV2]
+    main: [BPV2, RGS, BRK, CLY]
   6:
-    main: [BPV, SEN, KEV, BRK]
+    main: [TTN, BPV, SWI, CLY]
   7:
-    main: [KEV, TTN, RGS, CLY]
+    main: [BPV2, BRK, RGS, SEN]
   8:
-    main: [SEN, BRK, CLY, SWI]
+    main: [BRK, SWI, SEN, CLY]
   9:
-    main: [KEV, CLY, RGS, TTN]
+    main: [BPV, TTN, RGS, BPV2]
   10:
-    main: [BRK, SWI, BPV, KEV]
+    main: [TTN, CLY, RGS, BPV]
   11:
-    main: [BPV2, CLY, SEN, BPV]
+    main: [BRK, BPV2, SWI, SEN]
   12:
-    main: [CLY, RGS, BRK, SWI]
+    main: [BPV, CLY, TTN, SEN]
   13:
-    main: [BPV, BRK, TTN, SEN]
+    main: [BRK, RGS, SWI, BPV2]
   14:
-    main: [TTN, BPV2, SWI, CLY]
+    main: [RGS, BPV2, SWI, TTN]
   15:
-    main: [SEN, RGS, BPV, KEV]
+    main: [BRK, BPV, SEN, CLY]
   16:
-    main: [SWI, BRK, BPV2, SEN]
+    main: [SWI, BRK, CLY, BPV2]
   17:
-    main: [TTN, RGS, BPV2, KEV]
+    main: [SEN, RGS, BPV, TTN]
   18:
-    main: [SWI, BRK, RGS, TTN]
+    main: [RGS, SEN, BRK, CLY]
   19:
-    main: [SWI, KEV, CLY, BPV2]
+    main: [TTN, SWI, BPV, BPV2]
   20:
-    main: [BRK, BPV, SEN, BPV2]
+    main: [TTN, RGS, CLY, SWI]
   21:
-    main: [KEV, CLY, TTN, BRK]
+    main: [SEN, BPV, BPV2, BRK]
   22:
-    main: [RGS, BPV2, SEN, CLY]
+    main: [TTN, BRK, SWI, BPV2]
   23:
-    main: [BPV, RGS, BRK, KEV]
+    main: [RGS, BPV, SEN, CLY]
   24:
-    main: [SEN, TTN, BPV2, SWI]
+    main: [TTN, BPV2, SWI, BRK]
   25:
-    main: [SEN, CLY, BPV, KEV]
+    main: [CLY, SEN, BPV, RGS]
   26:
-    main: [BPV, TTN, SWI, RGS]
+    main: [CLY, SEN, BPV, BRK]
   27:
-    main: [RGS, TTN, CLY, KEV]
+    main: [SWI, RGS, BPV2, TTN]
   28:
-    main: [SEN, RGS, BPV, BRK]
+    main: [CLY, TTN, BPV2, SEN]
   29:
-    main: [TTN, BRK, BPV2, SWI]
+    main: [BPV, RGS, SWI, BRK]
   30:
-    main: [SEN, TTN, BPV, KEV]
+    main: [BPV, BRK, CLY, BPV2]
   31:
-    main: [BPV, SWI, CLY, BRK]
+    main: [TTN, SEN, RGS, SWI]
   32:
-    main: [BPV2, TTN, SEN, CLY]
+    main: [CLY, BPV, BRK, RGS]
   33:
-    main: [RGS, SWI, KEV, BRK]
+    main: [BPV2, SWI, SEN, TTN]
   34:
-    main: [SEN, BPV, BPV2, SWI]
+    main: [BPV, TTN, SWI, SEN]
   35:
-    main: [KEV, RGS, BPV2, CLY]
-  36:
-    main: [BPV, KEV, SEN, CLY]
-  37:
-    main: [BPV2, CLY, SWI, TTN]
-  38:
-    main: [RGS, KEV, BRK, TTN]
-  39:
-    main: [BPV2, SWI, SEN, KEV]
-  40:
-    main: [RGS, BPV, TTN, BPV2]
-  41:
-    main: [KEV, SWI, BPV, BRK]
-  42:
-    main: [TTN, SEN, CLY, RGS]
-  43:
-    main: [BRK, RGS, BPV2, SWI]
-  44:
-    main: [BRK, BPV, CLY, SEN]
-  45:
-    main: [SWI, BPV2, SEN, BPV]
-  46:
-    main: [KEV, BRK, BPV, RGS]
-  47:
-    main: [KEV, SEN, TTN, CLY]
-  48:
-    main: [SWI, RGS, SEN, BRK]
-  49:
-    main: [CLY, KEV, BPV2, BRK]
-  50:
-    main: [TTN, SEN, BPV2, RGS]
-  51:
-    main: [SWI, CLY, KEV, BPV]
-  52:
-    main: [TTN, CLY, BRK, RGS]
-  53:
-    main: [TTN, BPV2, BPV, SWI]
+    main: [CLY, RGS, BPV2, BRK]
