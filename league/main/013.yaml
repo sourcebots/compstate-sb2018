@@ -1,0 +1,34 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: ''
+  1:
+    tokens: ''
+  2:
+    tokens: ''
+  3:
+    tokens: ''
+  other:
+    tokens: PPPPPOOOOOGGGGGYYYYY
+match_number: 13
+teams:
+  BPV2:
+    disqualified: true
+    moved: false
+    present: true
+    zone: 3
+  BRK:
+    disqualified: true
+    moved: false
+    present: true
+    zone: 1
+  RGS:
+    disqualified: true
+    moved: false
+    present: false
+    zone: 0
+  SWI:
+    disqualified: true
+    moved: false
+    present: true
+    zone: 2

@@ -35,39 +35,46 @@ matches:
     main: [SWI, BRK, CLY, BPV2]
   17:
     main: [SEN, RGS, BPV, TTN]
+
+# Insert a re-run of match 13, which was abandoned by the match officials due to
+# RGS not being placed in the arena in time (our fault)
   18:
-    main: [RGS, SEN, BRK, CLY]
+    main: [RGS, BRK, SWI, BPV2]
+
+#
   19:
-    main: [TTN, SWI, BPV, BPV2]
+    main: [RGS, SEN, BRK, CLY]
   20:
-    main: [SWI, TTN, CLY, RGS]
+    main: [TTN, SWI, BPV, BPV2]
   21:
-    main: [SEN, BPV, BPV2, BRK]
+    main: [SWI, TTN, CLY, RGS]
   22:
-    main: [TTN, BRK, SWI, BPV2]
+    main: [SEN, BPV, BPV2, BRK]
   23:
-    main: [RGS, BPV, SEN, CLY]
+    main: [TTN, BRK, SWI, BPV2]
   24:
-    main: [TTN, SWI, BPV2, BRK]
+    main: [RGS, BPV, SEN, CLY]
   25:
-    main: [CLY, SEN, BPV, RGS]
+    main: [TTN, SWI, BPV2, BRK]
   26:
-    main: [CLY, SEN, BPV, BRK]
+    main: [CLY, SEN, BPV, RGS]
   27:
-    main: [SWI, RGS, BPV2, TTN]
+    main: [CLY, SEN, BPV, BRK]
   28:
-    main: [CLY, TTN, BPV2, SEN]
+    main: [SWI, RGS, BPV2, TTN]
   29:
-    main: [BPV, RGS, SWI, BRK]
+    main: [CLY, TTN, BPV2, SEN]
   30:
-    main: [BPV2, BRK, CLY, BPV]
+    main: [BPV, RGS, SWI, BRK]
   31:
-    main: [TTN, SEN, RGS, SWI]
+    main: [BPV2, BRK, CLY, BPV]
   32:
-    main: [CLY, BPV, BRK, RGS]
+    main: [TTN, SEN, RGS, SWI]
   33:
-    main: [BPV2, SWI, SEN, TTN]
+    main: [CLY, BPV, BRK, RGS]
   34:
-    main: [BPV, TTN, SWI, SEN]
+    main: [BPV2, SWI, SEN, TTN]
   35:
+    main: [BPV, TTN, SWI, SEN]
+  36:
     main: [CLY, RGS, BPV2, BRK]

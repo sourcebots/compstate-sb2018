@@ -65,6 +65,12 @@ match_periods:
       max_end_time: 2018-04-21 16:55:00 +1
       description: Saturday league, late afternoon, round 9
 
+# Bonus round to replay match 13 as match 18
+    - start_time: 2018-04-21 17:00:00 +1
+      end_time: 2018-04-21 17:00:00 +1
+      max_end_time: 2018-04-21 17:00:00 +1
+      description: Saturday league, early afternoon, match re-run
+
 #
     - start_time: 2018-04-22 11:00:00 +1
       end_time: 2018-04-22 11:05:00 +1
