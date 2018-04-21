@@ -3,7 +3,7 @@ teams:
     name: Southend High School for Boys
     rookie: true
   SWI:
-    name: South Wilts Grammar School for Girls
+    name: WIKZ
     rookie: true
   RGS:
     name: Royal Grammar School Guildford
@@ -12,10 +12,10 @@ teams:
     name: Collyer's
     rookie: true
   BPV:
-    name: Barton Peveril College I
+    name: Orion
     rookie: true
   BPV2:
-    name: Barton Peveril College II
+    name: Brenda
     rookie: true
   BRK:
     name: Brockenhurst College
