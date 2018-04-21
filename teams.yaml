@@ -23,6 +23,3 @@ teams:
   TTN:
     name: Richard Taunton Sixth Form College
     rookie: true
-  KEV:
-    name: King Edward VI School
-    rookie: true

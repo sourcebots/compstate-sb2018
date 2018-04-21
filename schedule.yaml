@@ -27,33 +27,85 @@ delays: []
 match_periods:
   league:
     - start_time: 2018-04-21 13:30:00 +1
-      end_time: 2018-04-21 14:55:00 +1
+      end_time: 2018-04-21 13:35:00 +1
+      max_end_time: 2018-04-21 13:40:00 +1
+      description: Saturday league, early afternoon, round 1
+    - start_time: 2018-04-21 13:45:00 +1
+      end_time: 2018-04-21 13:50:00 +1
+      max_end_time: 2018-04-21 13:55:00 +1
+      description: Saturday league, early afternoon, round 2
+    - start_time: 2018-04-21 14:00:00 +1
+      end_time: 2018-04-21 14:05:00 +1
+      max_end_time: 2018-04-21 14:10:00 +1
+      description: Saturday league, early afternoon, round 3
+    - start_time: 2018-04-21 14:15:00 +1
+      end_time: 2018-04-21 14:20:00 +1
+      max_end_time: 2018-04-21 14:25:00 +1
+      description: Saturday league, early afternoon, round 4
+    - start_time: 2018-04-21 14:30:00 +1
+      end_time: 2018-04-21 14:35:00 +1
+      max_end_time: 2018-04-21 14:40:00 +1
+      description: Saturday league, early afternoon, round 5
+    - start_time: 2018-04-21 14:45:00 +1
+      end_time: 2018-04-21 14:50:00 +1
       max_end_time: 2018-04-21 14:55:00 +1
-      description: Saturday league, early afternoon
+      description: Saturday league, early afternoon, round 6
 
 #
     - start_time: 2018-04-21 16:15:00 +1
-      end_time: 2018-04-21 16:55:00 +1
+      end_time: 2018-04-21 16:20:00 +1
+      max_end_time: 2018-04-21 16:25:00 +1
+      description: Saturday league, late afternoon, round 7
+    - start_time: 2018-04-21 16:30:00 +1
+      end_time: 2018-04-21 16:35:00 +1
+      max_end_time: 2018-04-21 16:40:00 +1
+      description: Saturday league, late afternoon, round 8
+    - start_time: 2018-04-21 16:45:00 +1
+      end_time: 2018-04-21 16:50:00 +1
       max_end_time: 2018-04-21 16:55:00 +1
-      description: Saturday league, late afternoon
+      description: Saturday league, late afternoon, round 9
 
 #
     - start_time: 2018-04-22 11:00:00 +1
-      end_time: 2018-04-22 11:40:00 +1
+      end_time: 2018-04-22 11:05:00 +1
+      max_end_time: 2018-04-22 11:10:00 +1
+      description: Sunday league, morning, round 10
+    - start_time: 2018-04-22 11:15:00 +1
+      end_time: 2018-04-22 11:20:00 +1
+      max_end_time: 2018-04-22 11:25:00 +1
+      description: Sunday league, morning, round 11
+    - start_time: 2018-04-22 11:30:00 +1
+      end_time: 2018-04-22 11:35:00 +1
       max_end_time: 2018-04-22 11:40:00 +1
-      description: Sunday league, morning
+      description: Sunday league, morning, round 12
 
 #
     - start_time: 2018-04-22 12:00:00 +1
-      end_time: 2018-04-22 12:40:00 +1
+      end_time: 2018-04-22 12:05:00 +1
+      max_end_time: 2018-04-22 12:10:00 +1
+      description: Sunday league, before lunch, round 13
+    - start_time: 2018-04-22 12:15:00 +1
+      end_time: 2018-04-22 12:20:00 +1
+      max_end_time: 2018-04-22 12:25:00 +1
+      description: Sunday league, before lunch, round 14
+    - start_time: 2018-04-22 12:30:00 +1
+      end_time: 2018-04-22 12:35:00 +1
       max_end_time: 2018-04-22 12:40:00 +1
-      description: Sunday league, before lunch
+      description: Sunday league, before lunch, round 15
 
 #
     - start_time: 2018-04-22 13:45:00 +1
-      end_time: 2018-04-22 14:25:00 +1
+      end_time: 2018-04-22 13:50:00 +1
+      max_end_time: 2018-04-22 13:55:00 +1
+      description: Sunday league, afternoon, round 16
+    - start_time: 2018-04-22 14:00:00 +1
+      end_time: 2018-04-22 14:05:00 +1
+      max_end_time: 2018-04-22 14:10:00 +1
+      description: Sunday league, afternoon, round 17
+    - start_time: 2018-04-22 14:15:00 +1
+      end_time: 2018-04-22 14:20:00 +1
       max_end_time: 2018-04-22 14:25:00 +1
-      description: Sunday league, afternoon
+      description: Sunday league, afternoon, round 18
 
 #
   knockout:
@@ -78,17 +130,17 @@ static_knockout:
         arena: main
         start_time: 2018-04-22 15:40:00 +1
         # S<num> means seed number
-        teams: [S6, S7, S8, S9]
+        teams: [S5, S6, S7, S8]
     1:
       0:
         arena: main
         start_time: 2018-04-22 15:50:00 +1
         # 012 means the 3rd place in match 1 in round 0 of the knockouts
-        teams: [S2, S4, S5, '001']
+        teams: [S2, S4, '000', null]
       1:
         arena: main
         start_time: 2018-04-22 16:00:00 +1
-        teams: [S1, S3, '000', '002']
+        teams: [S1, S3, '001', null]
     2:
       0:
         arena: main
