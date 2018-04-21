@@ -1,6 +1,6 @@
 matches:
   0:
-    main: [SWI, BRK, TTN, CLY]
+    main: [SWI, BRK, CLY, TTN]
   1:
     main: [SEN, RGS, BPV, BPV2]
   2:
@@ -22,15 +22,15 @@ matches:
   10:
     main: [TTN, CLY, RGS, BPV]
   11:
-    main: [BRK, BPV2, SWI, SEN]
+    main: [BRK, BPV2, SEN, SWI]
   12:
     main: [BPV, CLY, TTN, SEN]
   13:
-    main: [BRK, RGS, SWI, BPV2]
+    main: [RGS, BRK, SWI, BPV2]
   14:
     main: [RGS, BPV2, SWI, TTN]
   15:
-    main: [BRK, BPV, SEN, CLY]
+    main: [BRK, CLY, SEN, BPV]
   16:
     main: [SWI, BRK, CLY, BPV2]
   17:
@@ -40,7 +40,7 @@ matches:
   19:
     main: [TTN, SWI, BPV, BPV2]
   20:
-    main: [TTN, RGS, CLY, SWI]
+    main: [SWI, TTN, CLY, RGS]
   21:
     main: [SEN, BPV, BPV2, BRK]
   22:
@@ -48,7 +48,7 @@ matches:
   23:
     main: [RGS, BPV, SEN, CLY]
   24:
-    main: [TTN, BPV2, SWI, BRK]
+    main: [TTN, SWI, BPV2, BRK]
   25:
     main: [CLY, SEN, BPV, RGS]
   26:
@@ -60,7 +60,7 @@ matches:
   29:
     main: [BPV, RGS, SWI, BRK]
   30:
-    main: [BPV, BRK, CLY, BPV2]
+    main: [BPV2, BRK, CLY, BPV]
   31:
     main: [TTN, SEN, RGS, SWI]
   32:
