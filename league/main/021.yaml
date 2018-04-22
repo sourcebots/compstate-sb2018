@@ -1,0 +1,34 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: YYYYY
+  1:
+    tokens: OOOOOP
+  2:
+    tokens: PPPP
+  3:
+    tokens: GGGGG
+  other:
+    tokens: ''
+match_number: 21
+teams:
+  CLY:
+    disqualified: false
+    moved: true
+    present: true
+    zone: 2
+  RGS:
+    disqualified: false
+    moved: false
+    present: false
+    zone: 3
+  SWI:
+    disqualified: false
+    moved: true
+    present: true
+    zone: 0
+  TTN:
+    disqualified: false
+    moved: false
+    present: false
+    zone: 1
