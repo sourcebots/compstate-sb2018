@@ -55,7 +55,7 @@ matches:
   24:
     main: [RGS, BPV, SEN, CLY]
   25:
-    main: [TTN, SWI, BPV2, BRK]
+    main: [SWI, TTN, BPV2, BRK]
   26:
     main: [CLY, SEN, BPV, RGS]
   27:
