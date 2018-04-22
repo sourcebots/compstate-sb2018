@@ -20,7 +20,7 @@ teams:
   RGS:
     disqualified: false
     moved: false
-    present: false
+    present: true
     zone: 3
   SWI:
     disqualified: false
