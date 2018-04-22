@@ -139,11 +139,11 @@ static_knockout:
         arena: main
         start_time: 2018-04-22 16:10:00 +1
         # 012 means the 3rd place in match 1 in round 0 of the knockouts
-        teams: [S2, S3, '000', null]
+        teams: [null, 'S2', 'S3', '000']
       1:
         arena: main
         start_time: 2018-04-22 16:20:00 +1
-        teams: [S1, S4, '001', null]
+        teams: ['001', null, 'S4', 'S1']
     2:
       0:
         arena: main
