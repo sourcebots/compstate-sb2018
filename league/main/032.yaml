@@ -1,0 +1,29 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: G
+  1:
+    tokens: OOOOO
+  2:
+    tokens: PPPPYYYYYG
+  3:
+    tokens: GG
+  other:
+    tokens: GP
+match_number: 32
+teams:
+  RGS:
+    disqualified: false
+    moved: true
+    present: true
+    zone: 2
+  SEN:
+    disqualified: false
+    moved: true
+    present: true
+    zone: 1
+  SWI:
+    disqualified: false
+    moved: true
+    present: true
+    zone: 3
