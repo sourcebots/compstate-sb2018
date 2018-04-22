@@ -24,7 +24,7 @@ teams:
     zone: 3
   CLY:
     disqualified: false
-    moved: true
+    moved: false
     present: true
     zone: 0
   SEN:
